@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:p="http://primefaces.org/ui">
+<f:view locale="#{localeBean.locale}" contentType="text/html">
+  <h:head>
+    <title>#{applicationBean.appName}</title>
+    <h:outputStylesheet library="css" name="standard.css" />
+  </h:head>
+
+<p:growl id="growl" showDetail="true" life="3000" />  
+
+<h:outputLink id="loginLink" value="javascript:void(0)" onclick="dlg.show()" title="login">     
+    <h:graphicImage library="images" name="roo_logo.png" alt="Spring Roo" />  
+</h:outputLink>
+  
+    <h:form>  
+        <h:panelGrid columns="2" cellpadding="5">
+            <h:outputLabel value="Usuário: " for="j_username"/>  
+            <p:inputText id="j_username" value="#{applicationBean.usuario}" required="true"/>  
+              
+            <h:outputLabel value="Senha:" for="j_password"/>
+            <p:password id="j_password" value="#{applicationBean.senha}" required="true"/>  
+              
+            <f:facet name="footer">  
+                <p:commandButton id="loginButton" value="Login" update=":growl"   
+                    actionListener="#{applicationBean.logar}"   
+                    oncomplete="handleLoginRequest(xhr, status, args)"/>  
+            </f:facet>  
+        </h:panelGrid>  
+    </h:form>  
+</f:view>
+</html>

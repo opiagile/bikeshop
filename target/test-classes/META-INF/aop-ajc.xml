@@ -1,0 +1,13 @@
+<aspectj>
+<aspects>
+<aspect name="com.springsource.bikeshop.domain.ProductIntegrationTest_Roo_Configurable"/>
+<aspect name="com.springsource.bikeshop.domain.SupplierIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="com.springsource.bikeshop.domain.SupplierDataOnDemand_Roo_Configurable"/>
+<aspect name="com.springsource.bikeshop.domain.ProductDataOnDemand_Roo_Configurable"/>
+<aspect name="com.springsource.bikeshop.domain.ProductDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="com.springsource.bikeshop.domain.ProductIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="com.springsource.bikeshop.domain.SupplierIntegrationTest_Roo_Configurable"/>
+<aspect name="com.springsource.bikeshop.domain.SupplierDataOnDemand_Roo_DataOnDemand"/>
+</aspects>
+</aspectj>
+

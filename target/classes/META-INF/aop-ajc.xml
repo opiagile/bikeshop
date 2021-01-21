@@ -1,0 +1,27 @@
+<aspectj>
+<aspects>
+<aspect name="com.springsource.bikeshop.domain.Product_Roo_JavaBean"/>
+<aspect name="com.springsource.bikeshop.domain.Supplier_Roo_Jpa_Entity"/>
+<aspect name="com.springsource.bikeshop.domain.Product_Roo_ToString"/>
+<aspect name="com.springsource.bikeshop.domain.Supplier_Roo_JavaBean"/>
+<aspect name="com.springsource.bikeshop.web.converter.ProductConverter_Roo_Converter"/>
+<aspect name="com.springsource.bikeshop.web.ProductBean_Roo_Serializable"/>
+<aspect name="com.springsource.bikeshop.web.SupplierBean_Roo_ManagedBean"/>
+<aspect name="com.springsource.bikeshop.domain.Supplier_Roo_ToString"/>
+<aspect name="com.springsource.bikeshop.domain.Product_Roo_Jpa_Entity"/>
+<aspect name="com.springsource.bikeshop.web.SupplierBean_Roo_Configurable"/>
+<aspect name="com.springsource.bikeshop.web.converter.SupplierConverter_Roo_Converter"/>
+<aspect name="com.springsource.bikeshop.web.ApplicationBean_Roo_Configurable"/>
+<aspect name="com.springsource.bikeshop.domain.Supplier_Roo_Equals"/>
+<aspect name="com.springsource.bikeshop.web.ApplicationBean_Roo_ApplicationBean"/>
+<aspect name="com.springsource.bikeshop.domain.ProductRepository_Roo_Jpa_Repository"/>
+<aspect name="com.springsource.bikeshop.web.converter.ProductConverter_Roo_Configurable"/>
+<aspect name="com.springsource.bikeshop.web.ProductBean_Roo_Configurable"/>
+<aspect name="com.springsource.bikeshop.web.converter.SupplierConverter_Roo_Configurable"/>
+<aspect name="com.springsource.bikeshop.domain.SupplierRepository_Roo_Jpa_Repository"/>
+<aspect name="com.springsource.bikeshop.web.SupplierBean_Roo_Serializable"/>
+<aspect name="com.springsource.bikeshop.domain.Product_Roo_Equals"/>
+<aspect name="com.springsource.bikeshop.web.ProductBean_Roo_ManagedBean"/>
+</aspects>
+</aspectj>
+
